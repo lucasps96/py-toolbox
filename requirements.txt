@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+pandas
+openpyxl
+pillow
+lxml
+playwright==1.47.0
+pyarrow
+unidecode
+scikit-learn
+statsmodels
+matplotlib
+minio
