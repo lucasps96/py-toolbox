@@ -6,7 +6,7 @@
 
 Uma imagem Docker única (`py-toolbox`) com **Python + Chromium/Playwright + bibliotecas comuns**, para rodar scripts Python em um servidor sem precisar instalar as dependências diretamente no sistema operacional.
 
-A imagem também pode ser usada pelo `DockerOperator` do Airflow.
+A imagem também pode ser usada pelo `DockerOperator` do Airflow, por exemplo, para orquestrar um script the scrape utilizando BeautifulSoup e Playwright.
 
 Os scripts **não ficam dentro da imagem**. Cada projeto mantém seus próprios arquivos `.py` em sua própria pasta. A toolbox fornece apenas o ambiente de execução desses scripts.
 
